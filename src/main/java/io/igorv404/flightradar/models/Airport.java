@@ -27,6 +27,6 @@ public class Airport {
   private String name;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "id")
+  @JoinColumn(name = "city_id", referencedColumnName = "id")
   private City cityId;
 }

@@ -29,19 +29,19 @@ public class Flight {
   private UUID id;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "id")
+  @JoinColumn(name = "pilot_id", referencedColumnName = "id")
   private Pilot pilotId;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "id")
+  @JoinColumn(name = "plane_id", referencedColumnName = "id")
   private Plane planeId;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "id")
+  @JoinColumn(name = "start_airport_id", referencedColumnName = "id")
   private Airport startAirportId;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "id")
+  @JoinColumn(name = "end_airport_id", referencedColumnName = "id")
   private Airport endAirportId;
 
   @Column(nullable = false)

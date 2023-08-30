@@ -27,11 +27,11 @@ public class Plane {
   private UUID id;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "name")
+  @JoinColumn(name = "model_name", referencedColumnName = "name")
   private Model modelName;
 
   @ManyToOne
-  @JoinColumn(referencedColumnName = "name")
+  @JoinColumn(name = "company_name", referencedColumnName = "name")
   private Company companyName;
 
   @Column(nullable = false)
