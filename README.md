@@ -10,7 +10,7 @@
 ## Quick overview
 
 This repository contains implementation of [Flightradar24](https://www.flightradar24.com/) written on
-[Spring boot](https://spring.io/). If you have a proposition how better rewrite code, please open an issue.
+[Spring](https://spring.io/). If you have a proposition how better rewrite code, please open an issue.
 
 ## Get started
 
