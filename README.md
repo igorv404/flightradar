@@ -19,4 +19,5 @@ Before running the code you need:
 - Download a [Java](https://www.oracle.com/java/technologies/downloads/)
 - Download [Maven](https://maven.apache.org/download.cgi)
 - Create a database and update the `application.yml` file with the appropriate database connection details.
+- Download all dependencies using command `mvn install`
 - Run the application using command `mvn spring-boot:run`
